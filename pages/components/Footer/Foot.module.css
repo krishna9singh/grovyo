@@ -1,0 +1,101 @@
+.main{
+    height: 4.5rem;
+    width: 50rem;
+    border-radius:5rem;
+    margin-left: 32rem;
+}
+.p{
+    color: black;
+}
+.footer {
+  
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.bold{
+    font-weight: bold;
+    padding: 1rem;
+}
+.logo{
+    color: #0052ff;
+    font-size: 2rem;
+    padding:1rem;
+    font-family: 'Oleo Script', cursive;
+    font-weight: bold;
+    margin-top: -2rem;
+
+}
+.div{
+    font-weight: bold;
+
+}
+.line{
+    display:none;
+}
+.lin{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.3rem;
+    display: inline-block;
+    position: relative;
+    font-weight: lighter;
+}
+.lin:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    
+    background-color: #0052ff;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+.lin:hover:after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+    color: #0052ff;
+}
+.lin:hover{
+    color: #0052ff;
+}
+
+@media screen and (min-width: 320px) and (max-width: 999px) {
+
+    .main{
+        height: 16.3rem;
+        width: 81rem;
+        margin-left: 2.5rem;
+    }
+    .p{
+        font-size: 3rem;
+    }
+    .logo{
+        font-size: 7rem;
+    }
+    .div{
+        font-size: 4rem;
+        border-top: 1px solid #1d1919;
+
+    }
+    .made{
+        font-size: 3rem;
+    }
+    
+    .line{
+        border-bottom: 1px solid #1d1919;
+        margin-left: 20rem;
+    }
+    .lin{
+        font-size: 4rem;
+    }
+}
+
+.blue{
+    color: #0052ff;
+}

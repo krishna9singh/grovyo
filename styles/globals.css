@@ -1,0 +1,45 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    scroll-behavior: smooth;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+h1,h3{
+  font-family: 'Ramabhadra', sans-serif;
+  text-align: center;
+}
+p{
+  text-align: center;
+}
+svg {
+	width: 100%;
+	height: 100vh;
+}
+
+
+
+@media screen and (min-width: 320px) and (max-width: 999px) {
+  h1,h2,h3,h4,h5{
+
+  font-size: 4.3rem;
+  padding-left: 7rem;
+  width: 80rem;
+  }
+  p{
+    font-size: 3.3rem;
+    text-align: center;
+    width: 85rem;
+  }
+
+}

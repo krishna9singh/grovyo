@@ -1,0 +1,432 @@
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+
+}
+.first{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+    font-weight: bold;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    letter-spacing: 0.2rem;
+    line-height: 3.7rem;
+}
+.second{
+    font-family: 'Ramabhadra', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    padding-right: 15rem;
+
+}
+.su{
+    font-family: 'Bebas Neue', cursive;
+    color: #0052ff;
+    font-size: 1.3rem;
+    padding-top: 5rem;
+    display: inline-block;
+    position: relative;
+}
+.su:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0052ff;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+.su:hover:after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.input{
+    height:3rem;
+    width: 13rem;
+    font-size: 1.3rem;
+    border-radius: 0.3rem;
+    font-family: 'Ramabhadra', sans-serif;
+    border:2px solid #aaa;
+    border-radius:4px;
+    margin:8px 0;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+    transition:.3s;
+}
+.input:hover{
+    border-color: #eaeaea
+}
+.input:focus{
+    
+    border-color:dodgerBlue;
+    box-shadow:0 0 8px 0 dodgerBlue;
+}
+.button{
+    height:3rem;
+    width: 7rem;
+    font-size: 1rem;
+    color: white;
+    background-color: #0052ff;
+    border: none;
+    border-radius: 0.3rem;
+    font-family: 'Ramabhadra', sans-serif;
+    
+}
+.line{
+    margin-top: 2rem;
+    border-bottom: 1px solid #eaeaea;
+    width: 50rem;
+    margin-left: 32rem;
+    
+}
+.space{
+    margin-left: 1rem;
+    
+}
+.pack{
+    align-items: center;
+    justify-content: center;
+    
+}
+.blue{
+    color: #0052ff;
+}
+.main2{
+    padding-top: 3rem;
+    
+}
+.sub{
+    display: flex;
+    justify-content: center;
+    font-family: 'Ramabhadra', sans-serif;
+    color: #0052ff;
+    font-size:1rem;
+    
+}
+.one{
+    padding-right: 14rem;
+    
+}
+.sec{
+    padding-right: 14rem;
+}
+.midbut{
+    height:3rem;
+    width: 7rem;
+    font-size: 0.9rem;
+    color: white;
+    background-color: #0052ff;
+    border: none;
+    border-radius: 0.3rem;
+    font-family: 'Ramabhadra', sans-serif;
+    margin-top: 3rem;
+    margin-left: 54rem;
+    margin-bottom: 1rem;
+}
+
+.con{
+   padding-left: 26rem
+}
+.mid{
+    padding-left: 26rem;
+}
+
+.box{
+    height:19rem;
+    width: 35rem;
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+    border-radius: 1rem;
+    padding-left: 4.5rem;
+    margin-left: 40rem;
+    padding-top: 1rem;
+    box-shadow: 1px 1px  5px gray;
+}
+.name{
+    height:3rem;
+    width: 26rem;
+    font-size: 1.3rem;
+    border-radius: 0.3rem;
+    font-family: 'Ramabhadra', sans-serif;
+    border:2px solid #aaa;
+    border-radius:4px;
+    margin:8px 0;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+    transition:.3s;
+}
+.name:hover{
+    border-color: #eaeaea
+}
+.name:focus{
+    border-color:dodgerBlue;
+    box-shadow:0 0 8px 0 dodgerBlue;
+}
+.email{
+    height:3rem;
+    width: 26rem;
+    font-size: 1.3rem;
+    border-radius: 0.3rem;
+    font-family: 'Ramabhadra', sans-serif;
+    border:2px solid #aaa;
+    border-radius:4px;
+    margin:8px 0;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+    transition:.3s;
+}
+.email:hover{
+    border-color: #eaeaea
+}
+.email:focus{
+    border-color:dodgerBlue;
+    box-shadow:0 0 8px 0 dodgerBlue;
+}
+.number{
+    height:3rem;
+    width: 26rem;
+    font-size: 1.3rem;
+    border-radius: 0.3rem;
+    font-family: 'Ramabhadra', sans-serif;
+    border:2px solid #aaa;
+    border-radius:4px;
+    margin:8px 0;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+    transition:.3s;
+}
+.number:hover{
+    border-color: #eaeaea;
+}
+.number:focus{
+    border-color:dodgerBlue;
+    box-shadow:0 0 8px 0 dodgerBlue;
+}
+
+.counter{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+    font-weight: bold;
+    padding-left: 55rem;
+}
+
+
+
+
+
+
+
+  .newbut {
+    outline:none;
+    height: 3rem;
+    text-align: center;
+    width: 11rem;
+    border-radius:40px;
+    background: #fff;
+    border: 2px solid #0052ff;
+    color:#0052ff;
+    letter-spacing:1px;
+    text-shadow:0;
+    font-size:1rem;
+    font-weight:bold;
+    margin-left: 7rem;
+    cursor: pointer;
+    transition: all 0.25s ease;
+
+  }
+
+  .newbut:hover {
+    color:white;
+    background: #0052ff;
+  }
+
+  .newbut:active {
+    letter-spacing: 2px;
+    letter-spacing: 2px ;
+  }
+
+ 
+
+  .onclic {
+    width: 40px;
+    border-color:gray;
+    border-width:3px;
+    font-size:0;
+    border-left-color:#0052ff;
+    animation: rotating 2s 0.25s linear infinite;
+  
+   
+   
+  }
+.onclic:hover{
+    color:#0052ff;
+    background: white;
+}
+.onclic:after{
+    content:'';
+}
+
+  .validate {
+    font-size:13px;
+    color: white;
+    background: #0052ff;
+    
+  }
+  
+  @keyframes rotating {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+@media screen and (min-width: 320px) and (max-width: 999px) {
+    
+    .main{
+        padding-left: 44.5rem;
+        display: flex;
+    }
+    
+    .su{
+        font-size: 5rem;
+        width: 31rem;
+    }
+    .ed{
+        line-height: 7rem;
+        font-size: 6rem;
+        width: 31rem;
+    }
+    .button{
+        font-size: 3rem;
+        background-color: #0052ff;
+        color: white;
+        border-radius: 1.5rem;
+        border:none;
+        height: 7.5rem;
+        width: 23rem;
+        
+    }
+    .second{
+        padding-left: 6rem;
+    }
+
+    .main2{
+        
+        margin-left: -29rem;
+        width: 100rem;
+    }
+    .midbut{
+        margin-left:60.8rem;
+        font-size: 3rem;
+        background-color: #0052ff;
+        color: white;
+        border-radius: 1.5rem;
+        border:none;
+        height: 7.5rem;
+        width: 23rem;
+    }
+    .box{
+        height:44rem;
+        width: 85rem;
+        background-color: whitesmoke;
+        border: 1px solid whitesmoke;
+        border-radius: 1rem;
+        padding-left: 5.5rem;
+        margin-left: 0rem;
+        padding-top: 2rem;
+        box-shadow: 1px 1px  5px gray;
+       
+    }
+    .secp{
+        margin-left: 30rem;
+    }
+    .sub{
+        margin-top: 3rem;
+        padding-left: 40rem;
+        width: 105rem;
+        
+      
+    }
+    .mid{
+        padding-left: 12rem
+        
+    }
+    .con{
+        padding-left: 12rem;
+        
+    }
+    .second{
+        padding-right: 0rem;
+    }
+    .first{
+        padding-left: 0rem;
+    }
+    .name{
+        height:9rem;
+        width: 74rem;
+        font-size: 4rem;
+        border-radius: 2rem;
+        font-family: 'Ramabhadra', sans-serif;
+        border:2px solid #aaa;
+        border-radius:4px;
+        margin:8px 0;
+        outline:none;
+        padding:8px;
+        box-sizing:border-box;
+        transition:.3s;
+    }
+    .email{
+        height:9rem;
+        width: 74rem;
+        font-size: 4rem;
+        border-radius: 2rem;
+        font-family: 'Ramabhadra', sans-serif;
+        border:2px solid #aaa;
+        border-radius:4px;
+        margin:8px 0;
+        outline:none;
+        padding:8px;
+        box-sizing:border-box;
+        transition:.3s;
+    }
+    .number{
+        height:9rem;
+        width: 74rem;
+        font-size: 4rem;
+        border-radius: 2rem;
+        font-family: 'Ramabhadra', sans-serif;
+        border:2px solid #aaa;
+        border-radius:4px;
+        margin:8px 0;
+        outline:none;
+        padding:8px;
+        box-sizing:border-box;
+        transition:.3s;
+    }
+    .newbut{
+        height: 8rem;
+        width: 27rem;
+        margin-left: 23rem;
+        font-size: 4rem;
+    }
+    .h{
+        font-size: 3.5rem;
+    }
+    .counter{
+        padding-left: 38rem;
+        font-size: 7rem;
+    }
+}
+
+

@@ -1,0 +1,73 @@
+.nav{
+    display: flex;  
+    padding-left: 5rem; 
+    border-bottom: 1px solid #eaeaea;
+   
+    
+    
+}
+
+.logo{
+    color: #0052ff;
+    font-family: 'Oleo Script', cursive;
+    font-size: 2rem;
+    padding:1rem;
+    margin-left: 17rem;
+    font-weight: bold;
+    margin-top: 0.3rem;
+
+}
+
+
+
+.ul{
+    display: flex;
+    list-style-type: none;
+    padding-left: 51rem;
+    color: black;
+
+}
+
+
+
+.button{
+   
+  font-size: 1rem;
+  background-color: #0052ff;
+  color: white;
+  border-radius: 0.3rem;
+  border:none;
+  height: 3em;
+  width: 7rem;
+  font-family: 'Ramabhadra', sans-serif;
+  font-size: 1rem;
+  
+  
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .nav{
+        padding: 1rem;
+        width: 85rem;
+        border-bottom: 1px solid black;
+    
+        }
+        .logo{
+          padding-top: 2rem;
+          font-size: 7rem;
+          margin-left: 0.5rem;
+          
+        }
+        .ul{
+          margin-left: -24rem ;
+          margin-top: 3rem;
+        }
+        .button{
+            height: 7rem;
+            width: 27rem;
+            border-radius: 1rem;
+            font-size: 3rem;
+        }
+
+      }
